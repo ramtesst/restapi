@@ -18,8 +18,3 @@ resource "aws_instance" "machine1" {
     instance_type = "t2.micro"
     availability_zone = "us-east-1a"
 }
-
-data "restapi" "weather" {
-  uri          = "https://www.google.com"
-  method       = "GET"
-}
