@@ -1,3 +1,8 @@
+provider "restapi" {
+  uri                  = "https://www.google.com"
+  debug                = true
+}
+
 provider "aws" {
     region="us-east-1"
 }
