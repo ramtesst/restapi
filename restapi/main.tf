@@ -14,7 +14,7 @@ resource "aws_instance" "machine1" {
     availability_zone = "us-east-1a"
 }
 
-data "restapi2" "weather" {
+data "restapi" "weather" {
   uri          = "https://api.weather.gov/gridpoints/PHI/63,115/forecast"
   method       = "GET"
 }
