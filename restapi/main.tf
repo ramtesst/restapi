@@ -15,6 +15,6 @@ resource "aws_instance" "machine1" {
 }
 
 data "restapi" "weather" {
-  uri          = "https://api.weather.gov/gridpoints/PHI/63,115/forecast"
+  uri          = "https://www.google.com"
   method       = "GET"
 }
